@@ -391,7 +391,7 @@ HingeJoint:
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: -2.4, y: -0.83278525, z: -5.3237767}
-  m_UseSpring: 0
+  m_UseSpring: 1
   m_Spring:
     spring: 40000
     damper: 1000
@@ -431,6 +431,18 @@ Rigidbody:
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!114 &187772403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187772399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35d48285d2fd1304e8511ecd04cca239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &187772404
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1999,7 +2011,7 @@ HingeJoint:
   m_Axis: {x: 0, y: -1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 2.4, y: -0.83278525, z: -5.3237767}
-  m_UseSpring: 0
+  m_UseSpring: 1
   m_Spring:
     spring: 40000
     damper: 1000
@@ -2039,6 +2051,18 @@ Rigidbody:
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!114 &2135233006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135233002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35d48285d2fd1304e8511ecd04cca239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2135233007
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
