@@ -49,7 +49,7 @@ public class BrightnessRegulator : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision other)
+    void OnCollisionEnter(Collision other)
     {
         this.degree = 180;
     }
